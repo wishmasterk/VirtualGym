@@ -1,0 +1,91 @@
+name: "Tree Pose (Vrksasana)"
+description:
+  About: >
+    Tree Pose is a standing balancing pose that improves focus, concentration, and balance.
+    It strengthens the legs and ankles while opening the hips and stretching the inner thighs.
+    This pose helps develop concentration and steady breathing.
+
+  Benefits:
+    - -Improves balance and stability
+    - -Strengthens legs, ankles, and feet
+    - -Opens hips and stretches inner thighs
+    - -Develops concentration and focus
+    - -Calms the mind and reduces stress
+
+  Progression_Steps:
+    1:
+      instruction: "Stand straight with feet together"
+      validation:
+        landmarks: [11, 23, 24]  # shoulders to hips
+        desired_range: [85, 95]
+        feedback: "Straighten your spine"
+    
+    2:
+      instruction: "Shift weight to left leg"
+      validation:
+        landmarks: [23, 25, 27]  # left hip, knee, ankle
+        desired_range: [170, 180]
+        feedback: "Keep standing leg straight"
+    
+    3:
+      instruction: "Lift right foot and place it on inner left thigh"
+      validation:
+        landmarks: [24, 26, 28]  # right hip, knee, ankle
+        desired_range: [25, 45]
+        feedback: "Place foot higher on thigh"
+        
+    4:
+      instruction: "Join palms above head"
+      validation:
+        landmarks: [13, 11, 12]  # left arm, shoulders, right arm
+        desired_range: [170, 180]
+        feedback: "Raise arms fully above head"
+
+  Steps:
+    - Start with feet together, grounding firmly
+    - Shift weight onto left foot
+    - Bend right knee and place foot on left inner thigh
+    - Press foot and thigh together for stability
+    - Bring hands to heart center
+    - Optionally raise arms overhead
+    - Hold for 5-10 breaths
+    - Release and repeat on other side
+
+  Pose Errors:
+    - Leaning torso to one side
+    - Placing foot on knee joint
+    - Lifting standing leg hip
+    - Hunching shoulders
+    - Looking down instead of forward
+
+  App Guide:
+    - Stand 6-8 feet from camera
+    - Ensure full body is visible
+    - Face sideways to camera
+    - Maintain steady breathing
+    - Follow progressive steps
+    - Hold each position as indicated
+
+class_index: 2
+sample_image: "images/tree_pose.jpg"
+
+angles:
+  - name: "Standing Leg"
+    landmarks: [23, 25, 27]  # hip, knee, ankle
+    desired_range: [170, 180]
+    feedback: "Keep standing leg strong and straight"
+
+  - name: "Lifted Foot Position"
+    landmarks: [24, 26, 28]  # hip, knee, ankle
+    desired_range: [25, 45]
+    feedback: "Place foot higher on inner thigh"
+
+  - name: "Spine Alignment"
+    landmarks: [11, 23, 24]  # shoulders to hips
+    desired_range: [85, 95]
+    feedback: "Keep spine straight and vertical"
+
+  - name: "Arms Position"
+    landmarks: [13, 11, 12]  # arms and shoulders
+    desired_range: [170, 180]
+    feedback: "Extend arms fully overhead"

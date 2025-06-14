@@ -1,0 +1,56 @@
+name: "Downward Dog (Adho Mukha Svanasana)"
+description:
+  About:
+    Downward Dog is a fundamental yoga pose that creates full-body stretch and strength.
+    It energizes the body while building shoulder and leg endurance.
+    The pose forms an inverted "V" shape, evenly distributing weight between arms and legs.
+    Regular practice improves posture and relieves back tension.
+
+  Benefits:
+    - -Strengthens arms, shoulders and legs
+    - -Stretches hamstrings, calves and spine
+    - -Relieves back pain and stiffness
+    - -Improves circulation to the brain
+    - -Calms the mind and relieves stress
+
+  Steps:
+    - Start on hands and knees (tabletop position)
+    - Tuck toes and lift hips toward ceiling
+    - Straighten legs without locking knees
+    - Press hands firmly into mat, fingers spread wide
+    - Lengthen spine by drawing hips back and chest toward thighs
+    - Hold for 5-10 deep breaths
+    - Bend knees to release
+
+  Pose Errors: 
+    - Rounded back straining shoulders
+    - Heels lifting too high off the ground
+    - Shoulders hunched near ears
+    - Overarching the lower back
+    - Collapsing into the wrists
+
+  App Guide:
+    - Click 'Start Practice' button to begin analysis
+    - Position camera to see your full body in profile
+    - Ensure good lighting on your back and legs
+    - Hold pose for at least 20 seconds for proper evaluation
+    - Check real-time angle feedback for adjustments
+    - Modify with bent knees if hamstrings are tight
+
+class_index: 1
+sample_image: "images/downward_dog.jpg"  # Forward slash path
+angles:
+  - name: "Shoulder Angle"
+    landmarks: [11, 13, 15]  # Shoulder, elbow, wrist
+    desired_range: [120, 140]
+    feedback: "Press chest toward thighs to open shoulders"
+
+  - name: "Knee Angle"
+    landmarks: [23, 25, 27]  # Hip, knee, ankle
+    desired_range: [150, 170]
+    feedback: "Maintain slight bend to protect hamstrings"
+
+  - name: "Spinal Alignment"
+    landmarks: [11, 23, 27]  # Shoulder, hip, ankle
+    desired_range: [160, 180]
+    feedback: "Create one long diagonal line from hands to hips"

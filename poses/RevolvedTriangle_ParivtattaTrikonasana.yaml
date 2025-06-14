@@ -1,0 +1,51 @@
+name: "Revolved Triangle (Parivrtta Trikonasana)"
+description: 
+  About:
+    Revolved Triangle is a deep twist that combines forward fold with spinal rotation.
+    It stretches hamstrings and hips while improving spinal mobility.
+    The pose stimulates digestion and detoxification through the twisting action.
+    Regular practice develops better balance and core strength.
+
+  Benefits:
+    - -Enhances spinal mobility and flexibility
+    - -Stretches hamstrings, hips and shoulders
+    - -Stimulates abdominal organs and digestion
+    - -Improves balance and concentration
+    - -Strengthens legs and core muscles
+
+  Steps:
+    - Stand with feet 3-4 feet apart, right foot turned 90°, left foot 45°
+    - Extend arms parallel to floor at shoulder height
+    - Hinge at hips to bring left hand down to right foot
+    - Extend right arm vertically, creating a straight line from feet to fingertips
+    - Twist torso to look up at right hand
+    - Hold for 30 seconds while breathing deeply
+    - Repeat on opposite side
+
+  Pose Errors: 
+    - Rounded back instead of long spine
+    - Collapsed chest reducing breathing capacity
+    - Hips not squared forward
+    - Over-rotating the neck
+    - Locking front knee
+
+  App Guide:
+    - Click 'Start Practice' button to begin analysis
+    - Stand fully visible in frame with good side lighting
+    - Ensure camera captures your full body including extended arm
+    - Hold final position for at least 15 seconds
+    - Check real-time angle feedback for adjustments
+    - Perform on both sides for complete analysis
+
+class_index: 2
+sample_image: "images/revolved_triangle.jpg"  # Using forward slash
+angles:
+  - name: "Shoulder Rotation"
+    landmarks: [11, 12, 23]  # Left shoulder, right shoulder, left hip
+    desired_range: [30, 50]
+    feedback: "Maintain even shoulder rotation - don't overtwist"
+
+  - name: "Front Leg Alignment"
+    landmarks: [23, 25, 27]  # Hip, knee, ankle of front leg
+    desired_range: [160, 180]
+    feedback: "Keep front leg straight but not locked"

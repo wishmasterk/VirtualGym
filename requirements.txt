@@ -1,0 +1,9 @@
+
+opencv-python
+numpy
+ultralytics
+tensorflow==2.18.0
+keras==3.8.0
+streamlit
+mediapipe
+protobuf

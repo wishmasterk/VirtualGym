@@ -1,0 +1,82 @@
+name: "Warrior II (Virabhadrasana II)"
+description:
+  About:
+    Warrior II is a powerful standing pose that builds strength and stability.
+    It develops endurance in the legs while opening the hips and chest.
+    The pose improves focus and concentration through its grounded, expansive stance.
+    Regular practice enhances overall stamina and body awareness.
+
+  Benefits:
+    - -Strengthens legs, ankles, and core muscles
+    - -Stretches hips, groins, and shoulders
+    - -Improves balance and coordination
+    - -Increases circulation and energy
+    - -Builds mental focus and determination
+
+  Steps:
+    - Stand with feet 4-5 feet apart, right foot turned 90°, left foot slightly in
+    - Align right heel with left arch
+    - Bend right knee to 90°, keeping knee over ankle
+    - Extend arms parallel to floor at shoulder height
+    - Gaze over right fingertips
+    - Hold for 30-60 seconds while breathing deeply
+    - Repeat on opposite side
+
+  Pose Errors: 
+    - Front knee collapsing inward
+    - Back foot lifting or rotating
+    - Hunching shoulders forward
+    - Leaning torso over front leg
+    - Holding breath or tensing jaw
+
+  App Guide:
+    - Click 'Start Practice' button to begin analysis
+    - Stand fully visible in frame with side lighting
+    - Ensure camera captures both feet and extended arms
+    - Hold pose for at least 15 seconds per side
+    - Check real-time angle feedback for adjustments
+    - Modify stance width if needed for stability
+
+class_index: 4
+sample_image: "images/warrior_2.jpg"  # Forward slash path
+angles:
+  - name: "Left Elbow Angle"
+    landmarks: [11, 13, 15]
+    desired_range: [160, 180]
+    feedback: "Keep left elbow straight but not locked"
+
+  - name: "Right Elbow Angle"
+    landmarks: [12, 14, 16]
+    desired_range: [160, 180]
+    feedback: "Keep right elbow straight but not locked"
+
+  - name: "Left Wrist Angle"
+    landmarks: [13, 15, 21]
+    desired_range: [160, 180]
+    feedback: "Maintain neutral wrist position"
+
+  - name: "Right Wrist Angle"
+    landmarks: [14, 16, 22]
+    desired_range: [160, 180]
+    feedback: "Maintain neutral wrist position"
+
+  - name: "Left Shoulder Major Angle"
+    landmarks: [13, 11, 12]
+    desired_range: [160, 180]
+    feedback: "Keep shoulders relaxed and down"
+
+  - name: "Right Shoulder Major Angle"
+    landmarks: [14, 12, 11]
+    desired_range: [160, 180]
+    feedback: "Keep shoulders relaxed and down"
+
+  - name: "Left Knee Angle"
+    landmarks: [23, 25, 27]
+    desired_range: [160, 180]
+    feedback: "Keep back leg strong and straight"
+
+  - name: "Right Knee Angle"
+    landmarks: [24, 26, 28]
+    desired_range: [90, 130]
+    feedback: "Keep front knee directly above ankle"
+sample_image: "warrior2_pose.jpg"
