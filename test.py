@@ -237,8 +237,7 @@ def pose_page():
 
     # Add frame skip counter
     frame_counter = 0
-    FRAME_SKIP = 10  # Process every nth frame for predictions
-    last_prediction = None
+    FRAME_SKIP = 15  # Process every nth frame for predictions
     last_feedback = []
 
     # FPS calculation variables
@@ -324,7 +323,7 @@ def pose_page():
                             feedback_messages.append(f"Could not calculate {angle_config['name']}")
 
                 last_feedback = feedback_messages
-                feedback_placeholder.info("\n".join(feedback_messages))
+                feedback_placeholder.info("\n".join(last_feedback))
             else:
                 # Use the last feedback for non-processed frames
                 if last_feedback:

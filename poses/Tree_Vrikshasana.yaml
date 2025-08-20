@@ -67,7 +67,7 @@ description:
     - Hold each position as indicated
 
 class_index: 2
-sample_image: "images/tree_pose.jpg"
+sample_image: "tree.jpg"
 
 angles:
   - name: "Standing Leg"
