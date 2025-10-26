@@ -39,7 +39,7 @@ description:
     - Check real-time feedback for shoulder and hip alignment
 
 class_index: 0
-sample_image: "images/cobra_pose.jpg"  # Using forward slash for path
+sample_image: "images/cobra_pose.png"  # Using forward slash for path
 angles:
   - name: "Shoulder Angle"
     landmarks: [11, 13, 15]  # Shoulder, elbow, wrist
