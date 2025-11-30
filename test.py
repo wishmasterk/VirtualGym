@@ -17,7 +17,7 @@ mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
 pose = mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5, min_tracking_confidence=0.5, model_complexity=1)
 
-# Load YOLO model
+# Load YOLOv8 model for person detection
 model_yolo = YOLO("yolov8n.pt")  # Using nano version for faster inference
 
 # Load your trained model
@@ -237,7 +237,7 @@ def pose_page():
 
     # Add frame skip counter
     frame_counter = 0
-    FRAME_SKIP = 15  # Process every nth frame for predictions
+    FRAME_SKIP = 10  # Process every nth frame for predictions
     last_feedback = []
 
     # FPS calculation variables
@@ -296,7 +296,7 @@ def pose_page():
                 last_prediction = (predicted_class, confidence)
 
                 # Check confidence threshold
-                if confidence < 0.7:
+                if confidence < 0.5:
                     feedback_placeholder.warning("⚠ Low confidence: Not a recognized pose. Adjust your position.")
                 else:
                     # Only proceed with angle checks if confidence is high

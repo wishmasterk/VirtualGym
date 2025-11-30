@@ -38,7 +38,7 @@ description:
     - Perform on both sides for complete analysis
 
 class_index: 2
-sample_image: "images/revolved_triangle.jpg"  # Using forward slash
+sample_image: "images/revolved_triangle.png"  # Using forward slash
 angles:
   - name: "Shoulder Rotation"
     landmarks: [11, 12, 23]  # Left shoulder, right shoulder, left hip

@@ -211,3 +211,4 @@ if "current_pose" not in st.session_state:
     main_page()
 else:
     pose_page()
+

@@ -79,4 +79,4 @@ angles:
     landmarks: [24, 26, 28]
     desired_range: [90, 130]
     feedback: "Keep front knee directly above ankle"
-sample_image: "warrior2_pose.jpg"
+sample_image: "images/warrior2_pose.png"

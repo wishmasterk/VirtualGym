@@ -38,7 +38,7 @@ description:
     - Modify with bent knees if hamstrings are tight
 
 class_index: 1
-sample_image: "images/downward_dog.jpg"  # Forward slash path
+sample_image: "images/downward_dog.png"  # Forward slash path
 angles:
   - name: "Shoulder Angle"
     landmarks: [11, 13, 15]  # Shoulder, elbow, wrist
